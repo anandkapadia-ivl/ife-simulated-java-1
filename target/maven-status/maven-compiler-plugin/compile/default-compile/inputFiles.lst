@@ -1,0 +1,9 @@
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\config\SeedData.java
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\IfeVulnerableApplication.java
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\service\ThreadSaturationService.java
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\service\DeadlockService.java
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\service\AsyncQueueSaturationService.java
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\service\ThreadLocalLeakService.java
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\service\DatabaseContentionService.java
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\service\MemoryLeakService.java
+D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\src\main\java\com\ife\demo\controller\IncidentController.java

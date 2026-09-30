@@ -1,0 +1,392 @@
+﻿2026-09-30 17:34:09.688  INFO 17356 --- [main] com.ife.demo.IfeVulnerableApplication    : Starting IfeVulnerableApplication v1.0.0 using Java 17.0.12 on IVL-LP502 with PID 17356 (D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App\target\ife-correlated-vulnerable-app-1.0.0.jar started by Anand.Kapadia in D:\Infovision\Hackathon-2025\Product\IFE-2.0\DummyArtifacts\avaya\IFE-Java-Correlated-Vulnerable-App)
+2026-09-30 17:34:09.694  INFO 17356 --- [main] com.ife.demo.IfeVulnerableApplication    : No active profile set, falling back to 1 default profile: 'default'
+2026-09-30 17:34:13.432  INFO 17356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-09-30 17:34:17.015  WARN 17356 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2026-09-30 17:34:17.173 ERROR 17356 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : Web server failed to start. Port 8080 was already in use.
+
+2026-09-30 17:38:55.096 INFO  6396 --- [main                  ] com.ife.demo.IfeVulnerableApplication    : Starting IfeVulnerableApplication v1.0.0 using Java 17.0.12 on IVL-LP502 with PID 6396
+2026-09-30 17:38:55.104 INFO  6396 --- [main                  ] com.ife.demo.IfeVulnerableApplication    : The following 1 profile is active: 'default'
+2026-09-30 17:38:55.321 DEBUG 6396 --- [main                  ] o.s.boot.SpringApplication               : Loading source class com.ife.demo.IfeVulnerableApplication
+2026-09-30 17:38:55.789 DEBUG 6396 --- [main                  ] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/application.properties' (classpath:/application.properties)
+2026-09-30 17:38:56.102 DEBUG 6396 --- [main                  ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43301423
+2026-09-30 17:38:56.450 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2026-09-30 17:38:57.112 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2026-09-30 17:38:57.820 DEBUG 6396 --- [main                  ] o.s.b.w.e.t.TomcatServletWebServerFactory : Configuring Tomcat with maxThreads=20, minSpareThreads=2, port=8088
+2026-09-30 17:38:58.734 INFO  6396 --- [main                  ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2026-09-30 17:38:58.760 INFO  6396 --- [main                  ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-30 17:38:58.761 INFO  6396 --- [main                  ] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-09-30 17:38:58.790 DEBUG 6396 --- [main                  ] o.a.catalina.core.ContainerBase.[Tomcat] : Adding child Context[] to Engine[Tomcat]
+2026-09-30 17:38:58.990 INFO  6396 --- [main                  ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-30 17:38:58.991 INFO  6396 --- [main                  ] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3783 ms
+2026-09-30 17:38:59.210 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dataSource'
+2026-09-30 17:38:59.340 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jdbcTemplate'
+2026-09-30 17:38:59.510 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'memoryLeakService'
+2026-09-30 17:38:59.540 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'threadSaturationService'
+2026-09-30 17:38:59.580 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'deadlockService'
+2026-09-30 17:38:59.610 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'threadLocalLeakService'
+2026-09-30 17:38:59.650 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'asyncQueueSaturationService'
+2026-09-30 17:38:59.710 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'databaseContentionService'
+2026-09-30 17:38:59.830 DEBUG 6396 --- [main                  ] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'incidentController'
+2026-09-30 17:39:02.206 INFO  6396 --- [main                  ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-30 17:39:02.410 DEBUG 6396 --- [main                  ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Configuration: maximumPoolSize=5, minimumIdle=1, connectionTimeout=2000ms
+2026-09-30 17:39:02.750 DEBUG 6396 --- [main                  ] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support JDBC4 isValid() for connection: jdbc:h2:mem:ife
+2026-09-30 17:39:02.864 INFO  6396 --- [main                  ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-30 17:39:02.880 DEBUG 6396 --- [main                  ] com.ife.demo.config.SeedData             : Executing schema initialization on jdbc:h2:mem:ife
+2026-09-30 17:39:02.915 DEBUG 6396 --- [main                  ] com.ife.demo.config.SeedData             : Created table TEST_DATA and populated initial 100 rows
+2026-09-30 17:39:01.622 INFO  6396 --- [main                  ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoint(s) beneath base path '/actuator'
+2026-09-30 17:39:01.909 INFO  6396 --- [main                  ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2026-09-30 17:39:01.986 INFO  6396 --- [main                  ] com.ife.demo.IfeVulnerableApplication    : Started IfeVulnerableApplication in 7.688 seconds (JVM running for 8.268)
+2026-09-30 17:39:05.096 INFO  6396 --- [http-nio-8088-exec-1  ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-30 17:39:05.098 INFO  6396 --- [http-nio-8088-exec-1  ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-30 17:39:05.101 DEBUG 6396 --- [http-nio-8088-exec-1  ] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-09-30 17:39:05.104 INFO  6396 --- [http-nio-8088-exec-1  ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-09-30 17:39:05.115 DEBUG 6396 --- [http-nio-8088-exec-1  ] o.s.web.servlet.DispatcherServlet        : GET '/actuator/health', parameters={}
+2026-09-30 17:39:05.150 DEBUG 6396 --- [http-nio-8088-exec-1  ] o.s.b.a.h.HealthEndpointSupport          : Invoking health indicators: [diskSpace, db, ping]
+2026-09-30 17:39:05.210 DEBUG 6396 --- [http-nio-8088-exec-1  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for GET /actuator/health in 95ms
+2026-09-30 17:39:10.060 DEBUG 6396 --- [http-nio-8088-exec-2  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.060 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=276MB, free=124MB
+2026-09-30 17:39:10.060 INFO  6396 --- [http-nio-8088-exec-2  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=1, cumulative bytes=10485760
+2026-09-30 17:39:10.060 DEBUG 6396 --- [http-nio-8088-exec-2  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.120 DEBUG 6396 --- [http-nio-8088-exec-3  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.120 DEBUG 6396 --- [http-nio-8088-exec-3  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=296MB, free=120MB
+2026-09-30 17:39:10.120 INFO  6396 --- [http-nio-8088-exec-3  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=2, cumulative bytes=20971520
+2026-09-30 17:39:10.120 DEBUG 6396 --- [http-nio-8088-exec-3  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.180 DEBUG 6396 --- [http-nio-8088-exec-4  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.180 DEBUG 6396 --- [http-nio-8088-exec-4  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=316MB, free=116MB
+2026-09-30 17:39:10.180 INFO  6396 --- [http-nio-8088-exec-4  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=3, cumulative bytes=31457280
+2026-09-30 17:39:10.180 DEBUG 6396 --- [http-nio-8088-exec-4  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.240 DEBUG 6396 --- [http-nio-8088-exec-5  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.240 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=336MB, free=112MB
+2026-09-30 17:39:10.240 INFO  6396 --- [http-nio-8088-exec-5  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=4, cumulative bytes=41943040
+2026-09-30 17:39:10.240 DEBUG 6396 --- [http-nio-8088-exec-5  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.300 DEBUG 6396 --- [http-nio-8088-exec-6  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.300 DEBUG 6396 --- [http-nio-8088-exec-6  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=356MB, free=108MB
+2026-09-30 17:39:10.300 INFO  6396 --- [http-nio-8088-exec-6  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=5, cumulative bytes=52428800
+2026-09-30 17:39:10.300 DEBUG 6396 --- [http-nio-8088-exec-6  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.360 DEBUG 6396 --- [http-nio-8088-exec-7  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.360 DEBUG 6396 --- [http-nio-8088-exec-7  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=376MB, free=104MB
+2026-09-30 17:39:10.360 INFO  6396 --- [http-nio-8088-exec-7  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=6, cumulative bytes=62914560
+2026-09-30 17:39:10.360 DEBUG 6396 --- [http-nio-8088-exec-7  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.420 DEBUG 6396 --- [http-nio-8088-exec-8  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.420 DEBUG 6396 --- [http-nio-8088-exec-8  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=396MB, free=100MB
+2026-09-30 17:39:10.420 INFO  6396 --- [http-nio-8088-exec-8  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=7, cumulative bytes=73400320
+2026-09-30 17:39:10.420 DEBUG 6396 --- [http-nio-8088-exec-8  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.480 DEBUG 6396 --- [http-nio-8088-exec-9  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.480 DEBUG 6396 --- [http-nio-8088-exec-9  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=416MB, free=96MB
+2026-09-30 17:39:10.480 INFO  6396 --- [http-nio-8088-exec-9  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=8, cumulative bytes=83886080
+2026-09-30 17:39:10.480 DEBUG 6396 --- [http-nio-8088-exec-9  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.540 DEBUG 6396 --- [http-nio-8088-exec-10 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.540 DEBUG 6396 --- [http-nio-8088-exec-10 ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=436MB, free=92MB
+2026-09-30 17:39:10.540 INFO  6396 --- [http-nio-8088-exec-10 ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=9, cumulative bytes=94371840
+2026-09-30 17:39:10.540 DEBUG 6396 --- [http-nio-8088-exec-10 ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.600 DEBUG 6396 --- [http-nio-8088-exec-1  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.600 DEBUG 6396 --- [http-nio-8088-exec-1  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=456MB, free=88MB
+2026-09-30 17:39:10.600 INFO  6396 --- [http-nio-8088-exec-1  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=10, cumulative bytes=104857600
+2026-09-30 17:39:10.600 DEBUG 6396 --- [http-nio-8088-exec-1  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.660 DEBUG 6396 --- [http-nio-8088-exec-2  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.660 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=476MB, free=84MB
+2026-09-30 17:39:10.660 INFO  6396 --- [http-nio-8088-exec-2  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=11, cumulative bytes=115343360
+2026-09-30 17:39:10.660 DEBUG 6396 --- [http-nio-8088-exec-2  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.720 DEBUG 6396 --- [http-nio-8088-exec-3  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.720 DEBUG 6396 --- [http-nio-8088-exec-3  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=496MB, free=80MB
+2026-09-30 17:39:10.720 INFO  6396 --- [http-nio-8088-exec-3  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=12, cumulative bytes=125829120
+2026-09-30 17:39:10.720 WARN  6396 --- [http-nio-8088-exec-3  ] c.i.demo.service.MemoryLeakService       : High memory retention warning: JVM heap used memory > 75%, retained=120MB
+2026-09-30 17:39:10.720 DEBUG 6396 --- [http-nio-8088-exec-3  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.780 DEBUG 6396 --- [http-nio-8088-exec-4  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.780 DEBUG 6396 --- [http-nio-8088-exec-4  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=516MB, free=76MB
+2026-09-30 17:39:10.780 INFO  6396 --- [http-nio-8088-exec-4  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=13, cumulative bytes=136314880
+2026-09-30 17:39:10.780 WARN  6396 --- [http-nio-8088-exec-4  ] c.i.demo.service.MemoryLeakService       : High memory retention warning: JVM heap used memory > 75%, retained=130MB
+2026-09-30 17:39:10.780 DEBUG 6396 --- [http-nio-8088-exec-4  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.840 DEBUG 6396 --- [http-nio-8088-exec-5  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.840 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=536MB, free=72MB
+2026-09-30 17:39:10.840 INFO  6396 --- [http-nio-8088-exec-5  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=14, cumulative bytes=146800640
+2026-09-30 17:39:10.840 WARN  6396 --- [http-nio-8088-exec-5  ] c.i.demo.service.MemoryLeakService       : High memory retention warning: JVM heap used memory > 75%, retained=140MB
+2026-09-30 17:39:10.840 DEBUG 6396 --- [http-nio-8088-exec-5  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:10.900 DEBUG 6396 --- [http-nio-8088-exec-6  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/memory-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:10.900 DEBUG 6396 --- [http-nio-8088-exec-6  ] c.i.demo.service.MemoryLeakService       : Allocating byte[10485760] buffer. Pre-allocation heap: committed=556MB, free=68MB
+2026-09-30 17:39:10.900 INFO  6396 --- [http-nio-8088-exec-6  ] c.i.demo.service.MemoryLeakService       : Retained 10 MB in RETAINED_REQUESTS; total retained objects=15, cumulative bytes=157286400
+2026-09-30 17:39:10.900 WARN  6396 --- [http-nio-8088-exec-6  ] c.i.demo.service.MemoryLeakService       : High memory retention warning: JVM heap used memory > 75%, retained=150MB
+2026-09-30 17:39:10.900 DEBUG 6396 --- [http-nio-8088-exec-6  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/memory-leak in 14ms
+2026-09-30 17:39:12.100 DEBUG 6396 --- [http-nio-8088-exec-2  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/waiting-threads', parameters={count=[40], waitMs=[300000]}
+2026-09-30 17:39:12.110 INFO  6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Initiating spawn of 40 waiting worker threads (waitMs=300000)
+2026-09-30 17:39:12.128 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-1
+2026-09-30 17:39:12.128 DEBUG 6396 --- [IFE-WaitingWorker-1   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-1 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.136 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-2
+2026-09-30 17:39:12.136 DEBUG 6396 --- [IFE-WaitingWorker-2   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-2 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.144 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-3
+2026-09-30 17:39:12.144 DEBUG 6396 --- [IFE-WaitingWorker-3   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-3 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.152 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-4
+2026-09-30 17:39:12.152 DEBUG 6396 --- [IFE-WaitingWorker-4   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-4 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.160 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-5
+2026-09-30 17:39:12.160 DEBUG 6396 --- [IFE-WaitingWorker-5   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-5 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.168 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-6
+2026-09-30 17:39:12.168 DEBUG 6396 --- [IFE-WaitingWorker-6   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-6 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.176 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-7
+2026-09-30 17:39:12.176 DEBUG 6396 --- [IFE-WaitingWorker-7   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-7 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.184 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-8
+2026-09-30 17:39:12.184 DEBUG 6396 --- [IFE-WaitingWorker-8   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-8 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.192 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-9
+2026-09-30 17:39:12.192 DEBUG 6396 --- [IFE-WaitingWorker-9   ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-9 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.200 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-10
+2026-09-30 17:39:12.200 DEBUG 6396 --- [IFE-WaitingWorker-10  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-10 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.208 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-11
+2026-09-30 17:39:12.208 DEBUG 6396 --- [IFE-WaitingWorker-11  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-11 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.216 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-12
+2026-09-30 17:39:12.216 DEBUG 6396 --- [IFE-WaitingWorker-12  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-12 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.224 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-13
+2026-09-30 17:39:12.224 DEBUG 6396 --- [IFE-WaitingWorker-13  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-13 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.232 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-14
+2026-09-30 17:39:12.232 DEBUG 6396 --- [IFE-WaitingWorker-14  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-14 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.240 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-15
+2026-09-30 17:39:12.240 DEBUG 6396 --- [IFE-WaitingWorker-15  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-15 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.248 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-16
+2026-09-30 17:39:12.248 DEBUG 6396 --- [IFE-WaitingWorker-16  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-16 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.256 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-17
+2026-09-30 17:39:12.256 DEBUG 6396 --- [IFE-WaitingWorker-17  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-17 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.264 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-18
+2026-09-30 17:39:12.264 DEBUG 6396 --- [IFE-WaitingWorker-18  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-18 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.272 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-19
+2026-09-30 17:39:12.272 DEBUG 6396 --- [IFE-WaitingWorker-19  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-19 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.280 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-20
+2026-09-30 17:39:12.280 DEBUG 6396 --- [IFE-WaitingWorker-20  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-20 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.288 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-21
+2026-09-30 17:39:12.288 DEBUG 6396 --- [IFE-WaitingWorker-21  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-21 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.296 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-22
+2026-09-30 17:39:12.296 DEBUG 6396 --- [IFE-WaitingWorker-22  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-22 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.304 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-23
+2026-09-30 17:39:12.304 DEBUG 6396 --- [IFE-WaitingWorker-23  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-23 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.312 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-24
+2026-09-30 17:39:12.312 DEBUG 6396 --- [IFE-WaitingWorker-24  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-24 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.320 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-25
+2026-09-30 17:39:12.320 DEBUG 6396 --- [IFE-WaitingWorker-25  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-25 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.328 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-26
+2026-09-30 17:39:12.328 DEBUG 6396 --- [IFE-WaitingWorker-26  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-26 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.336 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-27
+2026-09-30 17:39:12.336 DEBUG 6396 --- [IFE-WaitingWorker-27  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-27 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.344 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-28
+2026-09-30 17:39:12.344 DEBUG 6396 --- [IFE-WaitingWorker-28  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-28 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.352 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-29
+2026-09-30 17:39:12.352 DEBUG 6396 --- [IFE-WaitingWorker-29  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-29 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.360 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-30
+2026-09-30 17:39:12.360 DEBUG 6396 --- [IFE-WaitingWorker-30  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-30 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.368 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-31
+2026-09-30 17:39:12.368 DEBUG 6396 --- [IFE-WaitingWorker-31  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-31 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.376 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-32
+2026-09-30 17:39:12.376 DEBUG 6396 --- [IFE-WaitingWorker-32  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-32 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.384 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-33
+2026-09-30 17:39:12.384 DEBUG 6396 --- [IFE-WaitingWorker-33  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-33 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.392 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-34
+2026-09-30 17:39:12.392 DEBUG 6396 --- [IFE-WaitingWorker-34  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-34 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.400 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-35
+2026-09-30 17:39:12.400 DEBUG 6396 --- [IFE-WaitingWorker-35  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-35 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.408 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-36
+2026-09-30 17:39:12.408 DEBUG 6396 --- [IFE-WaitingWorker-36  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-36 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.416 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-37
+2026-09-30 17:39:12.416 DEBUG 6396 --- [IFE-WaitingWorker-37  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-37 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.424 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-38
+2026-09-30 17:39:12.424 DEBUG 6396 --- [IFE-WaitingWorker-38  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-38 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.432 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-39
+2026-09-30 17:39:12.432 DEBUG 6396 --- [IFE-WaitingWorker-39  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-39 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.440 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Registered and started daemon thread IFE-WaitingWorker-40
+2026-09-30 17:39:12.440 DEBUG 6396 --- [IFE-WaitingWorker-40  ] c.i.d.s.ThreadSaturationService          : Thread IFE-WaitingWorker-40 entered WAITING state on CountDownLatch for 300000ms
+2026-09-30 17:39:12.500 INFO  6396 --- [http-nio-8088-exec-2  ] c.i.d.s.ThreadSaturationService          : Created 40 waiting worker threads successfully
+2026-09-30 17:39:12.505 DEBUG 6396 --- [http-nio-8088-exec-2  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for POST /incident/waiting-threads in 395ms
+2026-09-30 17:39:17.100 DEBUG 6396 --- [http-nio-8088-exec-3  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/deadlock', parameters={payloadMb=[10]}
+2026-09-30 17:39:17.112 INFO  6396 --- [http-nio-8088-exec-3  ] com.ife.demo.service.DeadlockService     : Preparing deadlock workers with 10MB payload allocations
+2026-09-30 17:39:17.125 DEBUG 6396 --- [IFE-DeadlockWorker-A  ] com.ife.demo.service.DeadlockService     : Thread IFE-DeadlockWorker-A started, preparing to acquire resourceA (monitor 0x0000026d5191e0c0)
+2026-09-30 17:39:17.126 DEBUG 6396 --- [IFE-DeadlockWorker-B  ] com.ife.demo.service.DeadlockService     : Thread IFE-DeadlockWorker-B started, preparing to acquire resourceB (monitor 0x0000026d5191e1a0)
+2026-09-30 17:39:17.148 INFO  6396 --- [IFE-DeadlockWorker-A  ] com.ife.demo.service.DeadlockService     : DeadlockWorker-A acquired resourceA [monitor 0x0000026d5191e0c0]
+2026-09-30 17:39:17.149 INFO  6396 --- [IFE-DeadlockWorker-B  ] com.ife.demo.service.DeadlockService     : DeadlockWorker-B acquired resourceB [monitor 0x0000026d5191e1a0]
+2026-09-30 17:39:17.160 DEBUG 6396 --- [IFE-DeadlockWorker-A  ] com.ife.demo.service.DeadlockService     : Allocated DeadlockPayload(thread='IFE-DeadlockWorker-A', size=10485760 bytes)
+2026-09-30 17:39:17.161 DEBUG 6396 --- [IFE-DeadlockWorker-B  ] com.ife.demo.service.DeadlockService     : Allocated DeadlockPayload(thread='IFE-DeadlockWorker-B', size=10485760 bytes)
+2026-09-30 17:39:17.298 INFO  6396 --- [IFE-DeadlockWorker-A  ] com.ife.demo.service.DeadlockService     : DeadlockWorker-A waiting for resourceB [monitor 0x0000026d5191e1a0]...
+2026-09-30 17:39:17.298 INFO  6396 --- [IFE-DeadlockWorker-B  ] com.ife.demo.service.DeadlockService     : DeadlockWorker-B waiting for resourceA [monitor 0x0000026d5191e0c0]...
+2026-09-30 17:39:17.310 WARN  6396 --- [Thread-Monitor-Watchdog] com.ife.demo.service.DeadlockService     : Potential circular monitor lock contention detected between IFE-DeadlockWorker-A and IFE-DeadlockWorker-B
+2026-09-30 17:39:17.220 DEBUG 6396 --- [http-nio-8088-exec-4  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/threadlocal-leak', parameters={megabytes=[10]}
+2026-09-30 17:39:17.230 INFO  6396 --- [http-nio-8088-exec-4  ] c.i.demo.service.ThreadLocalLeakService  : Dispatching ThreadLocal leak tasks to 8 pool worker threads
+2026-09-30 17:39:17.241 DEBUG 6396 --- [IFE-ThreadLocalWorker-1] c.i.demo.service.ThreadLocalLeakService  : Allocating ThreadLocalSessionContext(sessionId=SESSION-1727702957240-1, buffer=10485760 bytes)
+2026-09-30 17:39:17.241 INFO  6396 --- [IFE-ThreadLocalWorker-1] c.i.demo.service.ThreadLocalLeakService  : Assigned 10 MB ThreadLocal payload to IFE-ThreadLocalWorker-1 (ThreadLocalMap key=SESSION_CONTEXT, val=SESSION-1727702957240-1)
+2026-09-30 17:39:17.250 DEBUG 6396 --- [IFE-ThreadLocalWorker-1] c.i.demo.service.ThreadLocalLeakService  : Task completed on IFE-ThreadLocalWorker-1; Note: ThreadLocal.remove() was intentionally NOT invoked
+2026-09-30 17:39:17.242 DEBUG 6396 --- [IFE-ThreadLocalWorker-2] c.i.demo.service.ThreadLocalLeakService  : Allocating ThreadLocalSessionContext(sessionId=SESSION-1727702957240-2, buffer=10485760 bytes)
+2026-09-30 17:39:17.242 INFO  6396 --- [IFE-ThreadLocalWorker-2] c.i.demo.service.ThreadLocalLeakService  : Assigned 10 MB ThreadLocal payload to IFE-ThreadLocalWorker-2 (ThreadLocalMap key=SESSION_CONTEXT, val=SESSION-1727702957240-2)
+2026-09-30 17:39:17.250 DEBUG 6396 --- [IFE-ThreadLocalWorker-2] c.i.demo.service.ThreadLocalLeakService  : Task completed on IFE-ThreadLocalWorker-2; Note: ThreadLocal.remove() was intentionally NOT invoked
+2026-09-30 17:39:17.243 DEBUG 6396 --- [IFE-ThreadLocalWorker-3] c.i.demo.service.ThreadLocalLeakService  : Allocating ThreadLocalSessionContext(sessionId=SESSION-1727702957240-3, buffer=10485760 bytes)
+2026-09-30 17:39:17.243 INFO  6396 --- [IFE-ThreadLocalWorker-3] c.i.demo.service.ThreadLocalLeakService  : Assigned 10 MB ThreadLocal payload to IFE-ThreadLocalWorker-3 (ThreadLocalMap key=SESSION_CONTEXT, val=SESSION-1727702957240-3)
+2026-09-30 17:39:17.250 DEBUG 6396 --- [IFE-ThreadLocalWorker-3] c.i.demo.service.ThreadLocalLeakService  : Task completed on IFE-ThreadLocalWorker-3; Note: ThreadLocal.remove() was intentionally NOT invoked
+2026-09-30 17:39:17.244 DEBUG 6396 --- [IFE-ThreadLocalWorker-4] c.i.demo.service.ThreadLocalLeakService  : Allocating ThreadLocalSessionContext(sessionId=SESSION-1727702957240-4, buffer=10485760 bytes)
+2026-09-30 17:39:17.244 INFO  6396 --- [IFE-ThreadLocalWorker-4] c.i.demo.service.ThreadLocalLeakService  : Assigned 10 MB ThreadLocal payload to IFE-ThreadLocalWorker-4 (ThreadLocalMap key=SESSION_CONTEXT, val=SESSION-1727702957240-4)
+2026-09-30 17:39:17.250 DEBUG 6396 --- [IFE-ThreadLocalWorker-4] c.i.demo.service.ThreadLocalLeakService  : Task completed on IFE-ThreadLocalWorker-4; Note: ThreadLocal.remove() was intentionally NOT invoked
+2026-09-30 17:39:17.245 DEBUG 6396 --- [IFE-ThreadLocalWorker-5] c.i.demo.service.ThreadLocalLeakService  : Allocating ThreadLocalSessionContext(sessionId=SESSION-1727702957240-5, buffer=10485760 bytes)
+2026-09-30 17:39:17.245 INFO  6396 --- [IFE-ThreadLocalWorker-5] c.i.demo.service.ThreadLocalLeakService  : Assigned 10 MB ThreadLocal payload to IFE-ThreadLocalWorker-5 (ThreadLocalMap key=SESSION_CONTEXT, val=SESSION-1727702957240-5)
+2026-09-30 17:39:17.250 DEBUG 6396 --- [IFE-ThreadLocalWorker-5] c.i.demo.service.ThreadLocalLeakService  : Task completed on IFE-ThreadLocalWorker-5; Note: ThreadLocal.remove() was intentionally NOT invoked
+2026-09-30 17:39:17.246 DEBUG 6396 --- [IFE-ThreadLocalWorker-6] c.i.demo.service.ThreadLocalLeakService  : Allocating ThreadLocalSessionContext(sessionId=SESSION-1727702957240-6, buffer=10485760 bytes)
+2026-09-30 17:39:17.246 INFO  6396 --- [IFE-ThreadLocalWorker-6] c.i.demo.service.ThreadLocalLeakService  : Assigned 10 MB ThreadLocal payload to IFE-ThreadLocalWorker-6 (ThreadLocalMap key=SESSION_CONTEXT, val=SESSION-1727702957240-6)
+2026-09-30 17:39:17.250 DEBUG 6396 --- [IFE-ThreadLocalWorker-6] c.i.demo.service.ThreadLocalLeakService  : Task completed on IFE-ThreadLocalWorker-6; Note: ThreadLocal.remove() was intentionally NOT invoked
+2026-09-30 17:39:17.247 DEBUG 6396 --- [IFE-ThreadLocalWorker-7] c.i.demo.service.ThreadLocalLeakService  : Allocating ThreadLocalSessionContext(sessionId=SESSION-1727702957240-7, buffer=10485760 bytes)
+2026-09-30 17:39:17.247 INFO  6396 --- [IFE-ThreadLocalWorker-7] c.i.demo.service.ThreadLocalLeakService  : Assigned 10 MB ThreadLocal payload to IFE-ThreadLocalWorker-7 (ThreadLocalMap key=SESSION_CONTEXT, val=SESSION-1727702957240-7)
+2026-09-30 17:39:17.250 DEBUG 6396 --- [IFE-ThreadLocalWorker-7] c.i.demo.service.ThreadLocalLeakService  : Task completed on IFE-ThreadLocalWorker-7; Note: ThreadLocal.remove() was intentionally NOT invoked
+2026-09-30 17:39:17.248 DEBUG 6396 --- [IFE-ThreadLocalWorker-8] c.i.demo.service.ThreadLocalLeakService  : Allocating ThreadLocalSessionContext(sessionId=SESSION-1727702957240-8, buffer=10485760 bytes)
+2026-09-30 17:39:17.248 INFO  6396 --- [IFE-ThreadLocalWorker-8] c.i.demo.service.ThreadLocalLeakService  : Assigned 10 MB ThreadLocal payload to IFE-ThreadLocalWorker-8 (ThreadLocalMap key=SESSION_CONTEXT, val=SESSION-1727702957240-8)
+2026-09-30 17:39:17.250 DEBUG 6396 --- [IFE-ThreadLocalWorker-8] c.i.demo.service.ThreadLocalLeakService  : Task completed on IFE-ThreadLocalWorker-8; Note: ThreadLocal.remove() was intentionally NOT invoked
+2026-09-30 17:39:17.250 DEBUG 6396 --- [http-nio-8088-exec-5  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/queue-saturation', parameters={count=[15], megabytes=[5]}
+2026-09-30 17:39:17.252 INFO  6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Flooding 15 heavy tasks (5MB each) into ThreadPoolExecutor LinkedBlockingQueue
+2026-09-30 17:39:17.28 DEBUG 6396 --- [IFE-AsyncQueueWorker-1] c.i.d.s.AsyncQueueSaturationService      : Allocated HeavyQueuedTask TASK-1 (5242880 bytes)
+2026-09-30 17:39:17.28 INFO  6396 --- [IFE-AsyncQueueWorker-1] c.i.d.s.AsyncQueueSaturationService      : Task TASK-1 started on IFE-AsyncQueueWorker-1, waiting on throttle latch (300s timeout)
+2026-09-30 17:39:17.216 DEBUG 6396 --- [IFE-AsyncQueueWorker-2] c.i.d.s.AsyncQueueSaturationService      : Allocated HeavyQueuedTask TASK-2 (5242880 bytes)
+2026-09-30 17:39:17.216 INFO  6396 --- [IFE-AsyncQueueWorker-2] c.i.d.s.AsyncQueueSaturationService      : Task TASK-2 started on IFE-AsyncQueueWorker-2, waiting on throttle latch (300s timeout)
+2026-09-30 17:39:17.224 DEBUG 6396 --- [IFE-AsyncQueueWorker-3] c.i.d.s.AsyncQueueSaturationService      : Allocated HeavyQueuedTask TASK-3 (5242880 bytes)
+2026-09-30 17:39:17.224 INFO  6396 --- [IFE-AsyncQueueWorker-3] c.i.d.s.AsyncQueueSaturationService      : Task TASK-3 started on IFE-AsyncQueueWorker-3, waiting on throttle latch (300s timeout)
+2026-09-30 17:39:17.232 DEBUG 6396 --- [IFE-AsyncQueueWorker-4] c.i.d.s.AsyncQueueSaturationService      : Allocated HeavyQueuedTask TASK-4 (5242880 bytes)
+2026-09-30 17:39:17.232 INFO  6396 --- [IFE-AsyncQueueWorker-4] c.i.d.s.AsyncQueueSaturationService      : Task TASK-4 started on IFE-AsyncQueueWorker-4, waiting on throttle latch (300s timeout)
+2026-09-30 17:39:17.290 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-5 with 5MB buffer. Current LinkedBlockingQueue backlog depth=1
+2026-09-30 17:39:17.291 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-6 with 5MB buffer. Current LinkedBlockingQueue backlog depth=2
+2026-09-30 17:39:17.292 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-7 with 5MB buffer. Current LinkedBlockingQueue backlog depth=3
+2026-09-30 17:39:17.293 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-8 with 5MB buffer. Current LinkedBlockingQueue backlog depth=4
+2026-09-30 17:39:17.294 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-9 with 5MB buffer. Current LinkedBlockingQueue backlog depth=5
+2026-09-30 17:39:17.295 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-10 with 5MB buffer. Current LinkedBlockingQueue backlog depth=6
+2026-09-30 17:39:17.296 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-11 with 5MB buffer. Current LinkedBlockingQueue backlog depth=7
+2026-09-30 17:39:17.297 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-12 with 5MB buffer. Current LinkedBlockingQueue backlog depth=8
+2026-09-30 17:39:17.298 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-13 with 5MB buffer. Current LinkedBlockingQueue backlog depth=9
+2026-09-30 17:39:17.299 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-14 with 5MB buffer. Current LinkedBlockingQueue backlog depth=10
+2026-09-30 17:39:17.2910 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : Enqueued TASK-15 with 5MB buffer. Current LinkedBlockingQueue backlog depth=11
+2026-09-30 17:39:17.340 WARN  6396 --- [http-nio-8088-exec-5  ] c.i.d.s.AsyncQueueSaturationService      : ThreadPool worker threads saturated (active=4/4, queued=11 tasks, retained queue payload=55MB)
+2026-09-30 17:39:17.400 INFO  6396 --- [IncidentController    ] Incoming 20 concurrent POST requests to /incident/db-contention?sleepMs=30000 : 
+2026-09-30 17:39:17.411 DEBUG 6396 --- [http-nio-8088-exec-1  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.416 DEBUG 6396 --- [http-nio-8088-exec-1  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-1 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.412 DEBUG 6396 --- [http-nio-8088-exec-2  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.417 DEBUG 6396 --- [http-nio-8088-exec-2  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-2 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.413 DEBUG 6396 --- [http-nio-8088-exec-3  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.418 DEBUG 6396 --- [http-nio-8088-exec-3  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-3 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.414 DEBUG 6396 --- [http-nio-8088-exec-4  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.419 DEBUG 6396 --- [http-nio-8088-exec-4  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-4 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.415 DEBUG 6396 --- [http-nio-8088-exec-5  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.420 DEBUG 6396 --- [http-nio-8088-exec-5  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-5 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.416 DEBUG 6396 --- [http-nio-8088-exec-6  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.421 DEBUG 6396 --- [http-nio-8088-exec-6  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-6 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.417 DEBUG 6396 --- [http-nio-8088-exec-7  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.422 DEBUG 6396 --- [http-nio-8088-exec-7  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-7 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.418 DEBUG 6396 --- [http-nio-8088-exec-8  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.423 DEBUG 6396 --- [http-nio-8088-exec-8  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-8 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.419 DEBUG 6396 --- [http-nio-8088-exec-9  ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.424 DEBUG 6396 --- [http-nio-8088-exec-9  ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-9 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.420 DEBUG 6396 --- [http-nio-8088-exec-10 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.425 DEBUG 6396 --- [http-nio-8088-exec-10 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-10 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.421 DEBUG 6396 --- [http-nio-8088-exec-11 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.426 DEBUG 6396 --- [http-nio-8088-exec-11 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-11 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.422 DEBUG 6396 --- [http-nio-8088-exec-12 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.427 DEBUG 6396 --- [http-nio-8088-exec-12 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-12 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.423 DEBUG 6396 --- [http-nio-8088-exec-13 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.428 DEBUG 6396 --- [http-nio-8088-exec-13 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-13 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.424 DEBUG 6396 --- [http-nio-8088-exec-14 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.429 DEBUG 6396 --- [http-nio-8088-exec-14 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-14 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.425 DEBUG 6396 --- [http-nio-8088-exec-15 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.430 DEBUG 6396 --- [http-nio-8088-exec-15 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-15 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.426 DEBUG 6396 --- [http-nio-8088-exec-16 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.431 DEBUG 6396 --- [http-nio-8088-exec-16 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-16 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.427 DEBUG 6396 --- [http-nio-8088-exec-17 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.432 DEBUG 6396 --- [http-nio-8088-exec-17 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-17 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.428 DEBUG 6396 --- [http-nio-8088-exec-18 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.433 DEBUG 6396 --- [http-nio-8088-exec-18 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-18 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.429 DEBUG 6396 --- [http-nio-8088-exec-19 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.434 DEBUG 6396 --- [http-nio-8088-exec-19 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-19 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.430 DEBUG 6396 --- [http-nio-8088-exec-20 ] o.s.web.servlet.DispatcherServlet        : POST '/incident/db-contention', parameters={sleepMs=[30000]}
+2026-09-30 17:39:17.435 DEBUG 6396 --- [http-nio-8088-exec-20 ] c.i.d.s.DatabaseContentionService        : Request thread http-nio-8088-exec-20 attempting to acquire dbGate monitor lock...
+2026-09-30 17:39:17.445 INFO  6396 --- [http-nio-8088-exec-1  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-1 acquired dbGate lock. Executing JDBC: SELECT COUNT(*) FROM TEST_DATA
+2026-09-30 17:39:17.450 DEBUG 6396 --- [http-nio-8088-exec-1  ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection borrowed: conn0: url=jdbc:h2:mem:ife user=SA
+2026-09-30 17:39:17.460 DEBUG 6396 --- [http-nio-8088-exec-1  ] org.springframework.jdbc.core.JdbcTemplate : Executing prepared SQL query [SELECT COUNT(*) FROM TEST_DATA]
+2026-09-30 17:39:17.468 DEBUG 6396 --- [http-nio-8088-exec-1  ] org.springframework.jdbc.core.JdbcTemplate : SQL query returned result: 100 rows
+2026-09-30 17:39:17.470 INFO  6396 --- [http-nio-8088-exec-1  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-1 holding dbGate lock and entering simulated 30000ms JDBC processing sleep
+2026-09-30 17:39:17.472 WARN  6396 --- [http-nio-8088-exec-2  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-2 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.473 WARN  6396 --- [http-nio-8088-exec-3  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-3 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.474 WARN  6396 --- [http-nio-8088-exec-4  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-4 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.475 WARN  6396 --- [http-nio-8088-exec-5  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-5 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.476 WARN  6396 --- [http-nio-8088-exec-6  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-6 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.477 WARN  6396 --- [http-nio-8088-exec-7  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-7 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.478 WARN  6396 --- [http-nio-8088-exec-8  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-8 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.479 WARN  6396 --- [http-nio-8088-exec-9  ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-9 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.480 WARN  6396 --- [http-nio-8088-exec-10 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-10 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.481 WARN  6396 --- [http-nio-8088-exec-11 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-11 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.482 WARN  6396 --- [http-nio-8088-exec-12 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-12 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.483 WARN  6396 --- [http-nio-8088-exec-13 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-13 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.484 WARN  6396 --- [http-nio-8088-exec-14 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-14 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.485 WARN  6396 --- [http-nio-8088-exec-15 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-15 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.486 WARN  6396 --- [http-nio-8088-exec-16 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-16 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.487 WARN  6396 --- [http-nio-8088-exec-17 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-17 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.488 WARN  6396 --- [http-nio-8088-exec-18 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-18 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.489 WARN  6396 --- [http-nio-8088-exec-19 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-19 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:17.490 WARN  6396 --- [http-nio-8088-exec-20 ] c.i.d.s.DatabaseContentionService        : Thread http-nio-8088-exec-20 BLOCKED waiting for dbGate monitor lock held by http-nio-8088-exec-1
+2026-09-30 17:39:18.000 DEBUG 6396 --- [HikariPool-1-Housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=5, active=1, idle=4, waiting=19)
+2026-09-30 17:39:19.452 ERROR 6396 --- [http-nio-8088-exec-6  ] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.CannotAcquireLockException: Could not obtain JDBC connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 2005ms.] with root cause
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 2005ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100) ~[HikariCP-4.0.3.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159) ~[spring-jdbc-5.3.31.jar:5.3.31]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117) ~[spring-jdbc-5.3.31.jar:5.3.31]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-5.3.31.jar:5.3.31]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330) ~[spring-jdbc-5.3.31.jar:5.3.31]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465) ~[spring-jdbc-5.3.31.jar:5.3.31]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:475) ~[spring-jdbc-5.3.31.jar:5.3.31]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:497) ~[spring-jdbc-5.3.31.jar:5.3.31]
+	at com.ife.demo.service.DatabaseContentionService.saturate(DatabaseContentionService.java:31) ~[classes/:na]
+	at com.ife.demo.controller.IncidentController.dbContention(IncidentController.java:36) ~[classes/:na]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.lang.Thread.run(Thread.java:842) ~[na:na]
+2026-09-30 17:39:20.108 ERROR 6396 --- [http-nio-8088-exec-12 ] c.i.d.s.AsyncQueueSaturationService      : Task execution rejected / throttled due to queue saturation and worker thread starvation
+java.util.concurrent.RejectedExecutionException: Task com.ife.demo.service.AsyncQueueSaturationService$HeavyQueuedTask@4a3f12 rejected from java.util.concurrent.ThreadPoolExecutor@5b2210[Running, pool size = 4, active threads = 4, queued tasks = 15, completed tasks = 0]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065) ~[na:na]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833) ~[na:na]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365) ~[na:na]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123) ~[na:na]
+	at com.ife.demo.service.AsyncQueueSaturationService.enqueueHeavyTasks(AsyncQueueSaturationService.java:71) ~[classes/:na]
+	at com.ife.demo.controller.IncidentController.queueSaturation(IncidentController.java:60) ~[classes/:na]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.lang.Thread.run(Thread.java:842) ~[na:na]
+2026-09-30 17:39:22.315 ERROR 6396 --- [IFE-DeadlockWorker-A  ] com.ife.demo.service.DeadlockService     : Deadlock condition detected on worker thread IFE-DeadlockWorker-A
+java.lang.IllegalStateException: Thread IFE-DeadlockWorker-A blocked indefinitely on monitor 0x0000026d5191e1a0 (java.lang.Object) held by IFE-DeadlockWorker-B
+	at com.ife.demo.service.DeadlockService$1.run(DeadlockService.java:58) ~[classes/:na]
+	- waiting to lock <0x0000000604ccc570> (a java.lang.Object)
+	- locked <0x0000000604ccc560> (a java.lang.Object)
+	at java.lang.Thread.run(Thread.java:842) ~[na:na]
+2026-09-30 17:39:22.316 ERROR 6396 --- [IFE-DeadlockWorker-B  ] com.ife.demo.service.DeadlockService     : Deadlock condition detected on worker thread IFE-DeadlockWorker-B
+java.lang.IllegalStateException: Thread IFE-DeadlockWorker-B blocked indefinitely on monitor 0x0000026d5191e0c0 (java.lang.Object) held by IFE-DeadlockWorker-A
+	at com.ife.demo.service.DeadlockService$2.run(DeadlockService.java:79) ~[classes/:na]
+	- waiting to lock <0x0000000604ccc560> (a java.lang.Object)
+	- locked <0x0000000604ccc570> (a java.lang.Object)
+	at java.lang.Thread.run(Thread.java:842) ~[na:na]
+2026-09-30 17:39:24.789 WARN  6396 --- [http-nio-8088-exec-3  ] com.ife.demo.service.MemoryLeakService   : High memory retention threshold warning: cumulative retained buffer reached 157286400 bytes across 15 objects
+java.lang.OutOfMemoryError: Java heap space (high retention stress during memory leak simulation)
+	at com.ife.demo.service.MemoryLeakService.leak(MemoryLeakService.java:21) ~[classes/:na]
+	at com.ife.demo.controller.IncidentController.memoryLeak(IncidentController.java:42) ~[classes/:na]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.lang.Thread.run(Thread.java:842) ~[na:na]
+2026-09-30 17:39:26.512 WARN  6396 --- [IFE-WaitingWorker-14  ] c.i.demo.service.ThreadSaturationService : Worker thread IFE-WaitingWorker-14 timed wait threshold exceeded while waiting on latch
+java.lang.InterruptedException: sleep interrupted while waiting on CountDownLatch
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014) ~[na:na]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048) ~[na:na]
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:277) ~[na:na]
+	at com.ife.demo.service.ThreadSaturationService$1.run(ThreadSaturationService.java:25) ~[classes/:na]
+	at java.lang.Thread.run(Thread.java:842) ~[na:na]
+2026-09-30 17:39:35.100 DEBUG 6396 --- [http-nio-8088-exec-7  ] o.s.web.servlet.DispatcherServlet        : GET '/incident/status', parameters={}
+2026-09-30 17:39:35.105 DEBUG 6396 --- [http-nio-8088-exec-7  ] IncidentController                       : Returning incident metrics: retainedMemoryObjects=15, queueBacklog=11, status=UP
+2026-09-30 17:39:35.108 DEBUG 6396 --- [http-nio-8088-exec-7  ] o.s.web.servlet.DispatcherServlet        : Completed 200 OK for GET /incident/status in 8ms
